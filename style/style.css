@@ -6,11 +6,9 @@
 }
 
 body{
-    width: 100vw;
-}
-main{
     width: 100%;
 }
+
 
 .top-section {
     text-align: center;
@@ -139,5 +137,35 @@ main{
     & p{
         max-width: 40rem;
         margin: auto;
+    }
+}
+
+.contact-section{
+    display: flex;
+
+    & div{
+        padding: 2rem;
+        text-align: center;
+        flex: 1;
+
+        & p{
+            max-width: 20rem;
+            margin: auto;
+        }
+        & h3{
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+    }
+    & div:nth-child(1){
+        background-color: rgb(115, 107, 208);
+
+    }
+    & div:nth-child(2){
+        background-color: rgba(0, 0, 0, .8);
+        color: rgba(255, 255, 255, .6);
+        & h3{
+            color: rgba(255, 255, 255, .8);
+        }
     }
 }
