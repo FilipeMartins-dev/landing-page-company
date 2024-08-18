@@ -164,8 +164,20 @@ body{
     & div:nth-child(2){
         background-color: rgba(0, 0, 0, .8);
         color: rgba(255, 255, 255, .6);
+        font-size: .9rem;
         & h3{
             color: rgba(255, 255, 255, .8);
         }
+    }
+}
+
+footer{
+    background: linear-gradient(140deg, rgb(23, 27, 38), rgb(19, 15, 26));
+    padding: 1.4rem;
+
+    & div{
+        display: flex;
+        justify-content: space-between;
+        color: rgba(255, 255, 255, .8);
     }
 }
