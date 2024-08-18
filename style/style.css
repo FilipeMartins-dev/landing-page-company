@@ -37,7 +37,7 @@
 }
 
 .aside-section{
-    padding: 2rem;
+    padding: 4rem;
     background-color: lightgray;
     justify-content: center;
     align-items: center;
@@ -71,15 +71,52 @@
 
 .img-section{
     background-color: rgba(0, 0, 0, .8);
-    padding: 5rem;
+    padding: 3rem;
 }
-
+.cards-div{
+    display: flex;
+    justify-content: center;
+    gap: 1.4rem;
+    /* border: 1px solid red; */
+    max-width: 800px;
+    margin: auto;
+    flex-wrap: wrap;
+}
 .card{
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 
+    border-radius: .5rem;
+    width: 15rem;
+    background-color: whitesmoke;
 }
-
 .img-div{
-    & img{
-        width: 100%;
+    width: 100%;    
+    height: 8rem;
+    /* border: 1px solid red; */
+
+    background-position: center;
+    background-size: cover;
+}
+.img-div-1{
+    background-image: url(../src/img-aside-1.jpg);
+}
+.img-div-2{
+    background-image: url(../src/img-aside-2.jpg);
+}
+.img-div-3{
+    background-image: url(../src/img-aside-3.jpg);
+}
+.card-text-div{
+    padding: 1.4rem;
+    text-align: center;
+
+    & h3{
+        margin-bottom: 1rem;
+    }
+    & p{
+        font-size: .9rem;
     }
 }
