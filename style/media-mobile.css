@@ -1,0 +1,10 @@
+.aside-section{
+    & .p-div{
+        flex-direction: column;
+
+        & span:nth-child(1){
+            margin-bottom: 1rem;
+        }
+    }
+}
+
